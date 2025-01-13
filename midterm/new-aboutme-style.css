@@ -10,6 +10,9 @@ body {
 }
 
 /* ส่วนหัว */
+.header{
+    text-align: center;
+}
 .header h1 {
     font-size: 2.5em;
     color: #110f0f;
