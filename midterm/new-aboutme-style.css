@@ -1,0 +1,104 @@
+/* พื้นหลังสวยๆ */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #d516c8, #e9ecef);
+    font-family: 'Arial', sans-serif;
+}
+
+/* ส่วนหัว */
+.header h1 {
+    font-size: 2.5em;
+    color: #110f0f;
+    margin-bottom: 20px;
+}
+
+/* จัดรูปแบบของ Class และ Favorite */
+.class-favorite-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.class-section, .favorite-section {
+    width: 48%;
+    padding: 20px;
+    background-color: #f5f3f5;
+    box-shadow: 0 4px 6px rgba(5, 3, 3, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #d11414;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #070707;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* รูปภาพในส่วนของอารมณ์ */
+.moods-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.happy-section, .sad-section {
+    width: 48%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.happy-section img, .sad-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Fun Facts */
+.fun-facts-section {
+    margin-top: 40px;
+    width: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.fun-facts-section ul {
+    padding-left: 0;
+}
+
+.fun-facts-section li {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    color: #333;
+}
